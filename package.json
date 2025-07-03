@@ -1,0 +1,32 @@
+{
+  "name": "maixu-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.2.6",
+    "dayjs": "^1.11.13",
+    "swiper": "^11.2.8",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@iconify-json/ant-design": "^1.2.5",
+    "@iconify/tailwind4": "^1.0.6",
+    "@tailwindcss/vite": "^4.1.10",
+    "@types/node": "^24.0.4",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "serve": "^14.2.4",
+    "tailwindcss": "^4.1.10",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^2.2.10"
+  }
+}

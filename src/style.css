@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "@iconify/tailwind4";
+@import 'ant-design-vue/dist/reset.css';
+* {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+  border-radius: 8px;
+}
